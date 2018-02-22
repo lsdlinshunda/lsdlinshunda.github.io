@@ -1,1 +1,3 @@
-# lsdlinshunda.github.io
+# Shunda's Blog
+
+Theme by [Hux](https://huangxuan.me/)
