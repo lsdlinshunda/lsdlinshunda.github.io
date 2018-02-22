@@ -4,20 +4,21 @@ SEOTitle: 顺达的博客 | Shunda's Blog
 header-img: img/home-bg.jpg
 email: lsdlinshunda@163.com
 description: ""
-keyword: "顺达 shunda"
-url: "https://lsdlinshunda.github.io"   # your host, for absolute URL           
-baseurl: ""          # for example, '/blog' if your blog hosted on 'host/blog'
+keyword: "顺达, shunda, 林顺达"
+url: "https://lsdlinshunda.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-#weibo_username:     
-#zhihu_username:     
+# weibo_username:     
+# zhihu_username:     
 github_username:    lsdlinshunda
-#twitter_username:  
+# twitter_username:  
 #facebook_username:  
-steam_uid:           76561198069633749   
+# linkedin_username:  firstname-lastname-idxxxx
+steam_uid:          76561198069633749   
 
 
 # Build settings
@@ -25,7 +26,7 @@ steam_uid:           76561198069633749
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -45,25 +46,29 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-# Disqus settings
-disqus_username: disqus_4DPeAX24t2
 
+# Disqus settings
+disqus_username: shunda-blog
+
+# Netease setttings
+netease_comment: false
 
 
 
 # Analytics settings
-# Baidu Analytics
+# Baidu Analytics 
 ba_track_id: 8d6652965ea37e5b6d670c8a43a6bc5f
+
 # Google Analytics
-# ga_track_id: ''            # Format: UA-xxxxxx-xx
-# ga_domain: 
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "上海交通大学 信息工程<br>区块链爱好者"
-sidebar-avatar: /img/avatar-shunda.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "上海交大信息工程大四在读<br>区块链爱好者"
+sidebar-avatar: /img/avatar-shunda.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -73,10 +78,16 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 
 
 
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
 # Friends
 # friends: [
-    # {
-    #     title: "Hux Blog",
-    #     href: "http://huangxuan.me"
-    # },
+#     {
+#         title: "Su",
+#         href: "http://su.gallery/"
+#     },
 # ]
