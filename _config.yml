@@ -67,7 +67,7 @@ ba_track_id: 8d6652965ea37e5b6d670c8a43a6bc5f
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "上海交大信息工程大四在读<br>区块链爱好者"
+sidebar-about-description: "后端工程师 / 区块链爱好者"
 sidebar-avatar: /img/avatar-shunda.jpg    # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
